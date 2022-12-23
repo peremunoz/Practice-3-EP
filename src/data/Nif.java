@@ -10,7 +10,17 @@ final public class Nif {
 
     private final String nif;
 
-    public Nif (String code) { this.nif = code; }
+    public Nif (String code) {
+        if (code == null) throw new IllegalArgumentException("Nif cannot be null");
+        checkNif(code);
+
+        this.nif = code;
+    }
+
+    private void checkNif (String code) {
+        if (code.length() != 9) throw new IllegalArgumentException("Nif must have 9 characters");
+        if (!code.matches("[0-9]{8}[A-Z]")) throw new IllegalArgumentException("Nif must have 8 digits and 1 capital letter");
+    }
 
     public String getNif () { return nif; }
 
