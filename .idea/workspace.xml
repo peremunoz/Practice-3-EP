@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined the classes, test interfaces and test classes">
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CardPaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CitizenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CardPaymentTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CitizenTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CreditCardTestInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined the classes, test interfaces and test classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
