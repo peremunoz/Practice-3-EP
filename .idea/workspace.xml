@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined structure for testing the Nif.java class">
-      <change afterPath="$PROJECT_DIR$/test/data/NifTest.java" afterDir="false" />
+    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Implemented all tests for data package">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Goal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/GoalTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/DigitalSignatureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/DocPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/GoalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/SmallCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DigitalSignatureTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DocPathTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/interfaces/GoalTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/interfaces/SmallCodeTestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice 3 EP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 3 EP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/interfaces/NifTestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/interfaces/NifTestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DocPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DocPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Nif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Nif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/SmallCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/SmallCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/NifTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/NifTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +62,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,8 +74,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NifTest.getNifTest">
-    <configuration name="NifTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DigitalSignatureTest">
+    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
@@ -69,23 +84,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.NifTest" />
+      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NifTest.getNifTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DigitalSignatureTest.getDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.interfaces.*" />
+          <option name="PATTERN" value="data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.NifTest" />
-      <option name="METHOD_NAME" value="getNifTest" />
+      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+      <option name="METHOD_NAME" value="getDigitalSignatureTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitalSignatureTest.nullDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+      <option name="METHOD_NAME" value="nullDigitalSignatureTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoalTest.equalsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
+      <option name="METHOD_NAME" value="equalsGoalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoalTest.notEqualsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
+      <option name="METHOD_NAME" value="notEqualsGoalTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,9 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NifTest.getNifTest" />
-        <item itemvalue="JUnit.NifTest" />
-        <item itemvalue="JUnit.NifTest.getNifTest" />
+        <item itemvalue="JUnit.DigitalSignatureTest" />
+        <item itemvalue="JUnit.DigitalSignatureTest.nullDigitalSignatureTest" />
+        <item itemvalue="JUnit.DigitalSignatureTest.getDigitalSignatureTest" />
+        <item itemvalue="JUnit.GoalTest.equalsGoalTest" />
+        <item itemvalue="JUnit.GoalTest.notEqualsGoalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +232,7 @@
     <MESSAGE value="Added error control" />
     <MESSAGE value="Implemented class and some error control" />
     <MESSAGE value="Defined structure for testing the Nif.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined structure for testing the Nif.java class" />
+    <MESSAGE value="Implemented all tests for data package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented all tests for data package" />
   </component>
 </project>

@@ -11,15 +11,13 @@ final public class DocPath {
         private final String path;
 
         public DocPath (String path) {
-            if (path == null) throw new IllegalArgumentException("Path cannot be null");
             checkPath(path);
 
             this.path = path;
         }
 
         private void checkPath (String path) {
-            if (path.length() < 5) throw new IllegalArgumentException("Path must have at least 5 characters");
-            if (!path.matches("[A-Z]:\\\\[a-zA-Z0-9]+\\\\[a-zA-Z0-9]+\\.[a-zA-Z0-9]+")) throw new IllegalArgumentException("Path must have the format X:\\folder\\file.extension");
+            if (path == null) throw new NullPointerException("Path cannot be null");
         }
 
         public String getPath () { return path; }

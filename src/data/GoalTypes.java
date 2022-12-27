@@ -1,0 +1,5 @@
+package data;
+
+public enum GoalTypes {
+    WORKWITHMINORS, GAMESECTOR, PUBLICWORKERS, PUBLICADMINCONSORTIUM
+}

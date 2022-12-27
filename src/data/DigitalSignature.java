@@ -13,7 +13,7 @@ final public class DigitalSignature {
     private final byte[] digitalSignature;
 
     public DigitalSignature (byte[] digitalSignature) {
-        if (digitalSignature == null) throw new IllegalArgumentException("Digital signature cannot be null");
+        if (digitalSignature == null) throw new NullPointerException("Digital signature cannot be null");
         this.digitalSignature = digitalSignature;
     }
 

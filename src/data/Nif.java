@@ -11,7 +11,7 @@ final public class Nif {
     private final String nif;
 
     public Nif (String code) {
-        if (code == null) throw new IllegalArgumentException("Nif cannot be null");
+        if (code == null) throw new NullPointerException("Nif cannot be null");
         checkNif(code);
 
         this.nif = code;

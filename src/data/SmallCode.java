@@ -11,7 +11,7 @@ final public class SmallCode {
     private final String code;
 
     public SmallCode (String code) {
-        if (code == null) throw new IllegalArgumentException("Code cannot be null");
+        if (code == null) throw new NullPointerException("Code cannot be null");
         checkCode(code);
         this.code = code;
     }

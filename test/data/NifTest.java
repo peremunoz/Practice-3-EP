@@ -27,7 +27,7 @@ public class NifTest implements NifTestInterface {
     @Test
     @Override
     public void nullNifTest() {
-        assertThrows(IllegalArgumentException.class, () -> new Nif(null));
+        assertThrows(NullPointerException.class, () -> new Nif(null));
     }
 
     @Test
