@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="services_package" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,19 +48,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671835172871</updated>
-      <workItem from="1671835172874" duration="1000" />
-    </task>
-    <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added error control" />
+    <MESSAGE value="Implemented class and some error control" />
+    <MESSAGE value="Defined structure for testing the Nif.java class" />
+    <MESSAGE value="Implemented all tests for data package" />
+    <MESSAGE value="Defined the classes, test interfaces and test classes" />
+    <MESSAGE value="Implemented tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests" />
   </component>
 </project>
