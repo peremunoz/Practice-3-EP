@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined the classes, test interfaces and test classes">
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministration/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CardPaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CitizenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CardPaymentTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CitizenTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CreditCardTestInterface.java" afterDir="false" />
+    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Implemented tests">
+      <change afterPath="$PROJECT_DIR$/src/publicadministration/CriminalRecordCertf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/publicadministration/PDFDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/CriminalRecordCertfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/PDFDocumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CriminalRecordCertfTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/PDFDocumentTestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="services_package" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,8 +64,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CardPaymentTest">
-    <configuration name="CardPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CriminalRecordCertfTest">
+    <configuration name="CriminalRecordCertfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
@@ -77,13 +74,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="publicadministration" />
-      <option name="MAIN_CLASS_NAME" value="publicadministration.CardPaymentTest" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.CriminalRecordCertfTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CitizenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testGetFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
@@ -92,29 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="publicadministration" />
-      <option name="MAIN_CLASS_NAME" value="publicadministration.CitizenTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CitizenTest.testGetNif" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="publicadministration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="publicadministration" />
-      <option name="MAIN_CLASS_NAME" value="publicadministration.CitizenTest" />
-      <option name="METHOD_NAME" value="testGetNif" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testGetFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testMoveDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
@@ -123,34 +105,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="publicadministration" />
-      <option name="MAIN_CLASS_NAME" value="publicadministration.CreditCardTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testMoveDoc" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testMoveDocException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testMoveDocException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFDocumentTest.testOpenDocException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="publicadministration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testOpenDocException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardPaymentTest" />
-        <item itemvalue="JUnit.CreditCardTest" />
-        <item itemvalue="JUnit.CitizenTest" />
-        <item itemvalue="JUnit.CitizenTest.testGetNif" />
-        <item itemvalue="JUnit.DigitalSignatureTest" />
+        <item itemvalue="JUnit.CriminalRecordCertfTest" />
+        <item itemvalue="JUnit.PDFDocumentTest.testMoveDoc" />
+        <item itemvalue="JUnit.PDFDocumentTest.testMoveDocException" />
+        <item itemvalue="JUnit.PDFDocumentTest.testOpenDocException" />
+        <item itemvalue="JUnit.PDFDocumentTest.testGetFile" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +164,7 @@
       <updated>1671835172871</updated>
       <workItem from="1671835172874" duration="828000" />
       <workItem from="1671836563880" duration="1160000" />
+      <workItem from="1672324078760" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1671835358016</created>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671838938657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented tests">
+      <created>1672261494809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672261494809</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Defined structure for testing the Nif.java class" />
     <MESSAGE value="Implemented all tests for data package" />
     <MESSAGE value="Defined the classes, test interfaces and test classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined the classes, test interfaces and test classes" />
+    <MESSAGE value="Implemented tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests" />
   </component>
 </project>
