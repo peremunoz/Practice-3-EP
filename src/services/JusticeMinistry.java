@@ -1,6 +1,8 @@
 package services;
 
 import data.Goal;
+import publicadministration.Citizen;
+import publicadministration.CriminalRecordCertf;
 
 import java.net.ConnectException;
 
