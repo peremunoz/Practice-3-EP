@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Implemented all tests for data package">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Goal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/GoalTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/DigitalSignatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/DocPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/GoalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/SmallCodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DigitalSignatureTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DocPathTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/GoalTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/SmallCodeTestInterface.java" afterDir="false" />
+    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Implemented tests">
+      <change afterPath="$PROJECT_DIR$/src/publicadministration/CriminalRecordCertf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/publicadministration/PDFDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/CriminalRecordCertfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/PDFDocumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/CriminalRecordCertfTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministration/interfaces/PDFDocumentTestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DocPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DocPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Nif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Nif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/SmallCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/SmallCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/NifTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/NifTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="services_package" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,101 +44,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.DigitalSignatureTest">
-    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.CriminalRecordCertfTest">
+    <configuration name="CriminalRecordCertfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.CriminalRecordCertfTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitalSignatureTest.getDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testGetFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="METHOD_NAME" value="getDigitalSignatureTest" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testGetFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitalSignatureTest.nullDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testMoveDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="METHOD_NAME" value="nullDigitalSignatureTest" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testMoveDoc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalTest.equalsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testMoveDocException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
-      <option name="METHOD_NAME" value="equalsGoalTest" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testMoveDocException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalTest.notEqualsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFDocumentTest.testOpenDocException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice 3 EP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
-      <option name="METHOD_NAME" value="notEqualsGoalTest" />
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testOpenDocException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DigitalSignatureTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest.nullDigitalSignatureTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest.getDigitalSignatureTest" />
-        <item itemvalue="JUnit.GoalTest.equalsGoalTest" />
-        <item itemvalue="JUnit.GoalTest.notEqualsGoalTest" />
+        <item itemvalue="JUnit.CriminalRecordCertfTest" />
+        <item itemvalue="JUnit.PDFDocumentTest.testMoveDoc" />
+        <item itemvalue="JUnit.PDFDocumentTest.testMoveDocException" />
+        <item itemvalue="JUnit.PDFDocumentTest.testOpenDocException" />
+        <item itemvalue="JUnit.PDFDocumentTest.testGetFile" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +164,7 @@
       <updated>1671835172871</updated>
       <workItem from="1671835172874" duration="828000" />
       <workItem from="1671836563880" duration="1160000" />
+      <workItem from="1672324078760" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1671835358016</created>
@@ -210,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671838938657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented tests">
+      <created>1672261494809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672261494809</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +231,8 @@
     <MESSAGE value="Implemented class and some error control" />
     <MESSAGE value="Defined structure for testing the Nif.java class" />
     <MESSAGE value="Implemented all tests for data package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented all tests for data package" />
+    <MESSAGE value="Defined the classes, test interfaces and test classes" />
+    <MESSAGE value="Implemented tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests" />
   </component>
 </project>
