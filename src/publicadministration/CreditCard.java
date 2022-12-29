@@ -40,6 +40,10 @@ public class CreditCard {
         return svc;
     }
 
+    public boolean fullyRegistered() {
+        return nif != null && cardNumb != null && expirDate != null && svc != null;
+    }
+
     @Override
     public String toString () {
         return "Nif: " + nif + " Card Number: " + cardNumb + " Expiration Date: " + expirDate + " SVC: " + svc;
