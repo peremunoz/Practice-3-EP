@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Implemented all tests for data package">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Goal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/GoalTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/DigitalSignatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/DocPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/GoalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/SmallCodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DigitalSignatureTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/DocPathTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/GoalTestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/interfaces/SmallCodeTestInterface.java" afterDir="false" />
+    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined the classes, test interfaces and test classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DocPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DocPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Nif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Nif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/SmallCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/SmallCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/NifTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/NifTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +15,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="services_package" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JKmV0qKIebr2z7BfNqqsOn3xce" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,185 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.DigitalSignatureTest">
-    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DigitalSignatureTest.getDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="METHOD_NAME" value="getDigitalSignatureTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DigitalSignatureTest.nullDigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
-      <option name="METHOD_NAME" value="nullDigitalSignatureTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoalTest.equalsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
-      <option name="METHOD_NAME" value="equalsGoalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoalTest.notEqualsGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice 3 EP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.GoalTest" />
-      <option name="METHOD_NAME" value="notEqualsGoalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.DigitalSignatureTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest.nullDigitalSignatureTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest.getDigitalSignatureTest" />
-        <item itemvalue="JUnit.GoalTest.equalsGoalTest" />
-        <item itemvalue="JUnit.GoalTest.notEqualsGoalTest" />
-      </list>
-    </recent_temporary>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="" />
       <created>1671835172871</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671835172871</updated>
-      <workItem from="1671835172874" duration="828000" />
-      <workItem from="1671836563880" duration="1160000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1671835358016</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671835358016</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added error control">
-      <created>1671837114935</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671837114935</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implemented class and some error control">
-      <created>1671837392592</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671837392592</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Implemented class and some error control">
-      <created>1671837507670</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671837507670</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Defined structure for testing the Nif.java class">
-      <created>1671838938657</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671838938657</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added error control" />
     <MESSAGE value="Implemented class and some error control" />
     <MESSAGE value="Defined structure for testing the Nif.java class" />
     <MESSAGE value="Implemented all tests for data package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented all tests for data package" />
+    <MESSAGE value="Defined the classes, test interfaces and test classes" />
+    <MESSAGE value="Implemented tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests" />
   </component>
 </project>
