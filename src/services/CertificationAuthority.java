@@ -1,4 +1,8 @@
 package services;
+import controller.exceptions.AnyMobileRegisteredException;
+import controller.exceptions.IncorrectValDateException;
+import controller.exceptions.NifNotRegisteredException;
+import controller.exceptions.NotValidPINException;
 import data.*;
 
 import java.net.ConnectException;

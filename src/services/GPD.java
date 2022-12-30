@@ -1,5 +1,6 @@
 package services;
-import data.Goal
+import controller.exceptions.IncorrectVerificationException;
+import data.Goal;
 import publicadministration.Citizen;
 
 import java.net.ConnectException;
