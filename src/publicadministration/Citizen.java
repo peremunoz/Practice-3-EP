@@ -12,7 +12,6 @@ public class Citizen {
     private final String name;
     private final String address;
     private final String mobileNumb;
-
     private final Date validationDate;
 
     public Citizen (Nif nif, String name, String add, String mobile){
