@@ -1,12 +1,15 @@
 package controller;
 
 import controller.exceptions.*;
-import controller.interfaces.UnifiedPlatformTestInterface;
+import controller.interfaces.UnifiedPlatformEnterCardDataTestInterface;
+import controller.interfaces.UnifiedPlatformObtainCertificateTestInterface;
 import data.Goal;
 import data.GoalTypes;
 import data.Nif;
 import data.SmallCode;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import publicadministration.Citizen;
 import publicadministration.CreditCard;
 
@@ -15,9 +18,10 @@ import java.net.ConnectException;
 import java.util.Date;
 import java.util.HashMap;
 
-@DisplayName("Unified Platform Test with one correct citizen")
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class UnifiedPlatformWithOneCorrectCitizenTest implements UnifiedPlatformTestInterface {
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+@DisplayName("UnifiedPlatform.enterForm function Test")
+public class UnifiedPlatformObtainCertificateTest implements UnifiedPlatformObtainCertificateTestInterface {
 
     static UnifiedPlataform unifiedPlataform;
     static HashMap<String, Citizen> registeredCitizens;
@@ -36,32 +40,31 @@ public class UnifiedPlatformWithOneCorrectCitizenTest implements UnifiedPlatform
         creditCard = new CreditCard(nif, "1234567890123456", date, new SmallCode("123"));
         registeredCitizens.put(nif.getNif(), citizen);
         unifiedPlataform.setRegisteredCitizens(registeredCitizens);
+        creditCard.setBalance(new BigDecimal(100));
+
+        unifiedPlataform.fourthStepCorrect();
     }
 
     @Override
     @Test
-    @Order(1)
     public void testEnterNIFandPINobt() throws IncorrectValDateException, NifNotRegisteredException, AnyMobileRegisteredException, ConnectException, ProceduralException {
         unifiedPlataform.enterNIFandPINobt(nif, date);
     }
 
     @Override
     @Test
-    @Order(2)
     public void testEnterPIN() throws NotValidPINException, ConnectException, ProceduralException {
         unifiedPlataform.enterPIN(new SmallCode("123"));
     }
 
     @Override
     @Test
-    @Order(3)
     public void testEnterForm() throws IncompleteFormException, IncorrectVerificationException, ConnectException, ProceduralException {
         unifiedPlataform.getEnterForm(citizen, new Goal(GoalTypes.GAMESECTOR));
     }
 
     @Override
     @Test
-    @Order(4)
     public void testEnterCardData() throws NotValidPaymentDataException, IncompleteFormException, InsufficientBalanceException, ConnectException, ProceduralException {
         creditCard.setBalance(new BigDecimal(100));
         unifiedPlataform.getEnterCardData(creditCard);
@@ -69,8 +72,17 @@ public class UnifiedPlatformWithOneCorrectCitizenTest implements UnifiedPlatform
 
     @Override
     @Test
-    @Order(5)
-    public void testObtainCertificate() throws DigitalSignatureException, BadPathException, ConnectException, ProceduralException {
-        unifiedPlataform.getObtainCertificate();
+    public void testDigitalSignatureException() throws DigitalSignatureException, BadPathException, ConnectException, ProceduralException {
+        unifiedPlataform.setJusticeMinistry_DigitalSignatureException();
+        assertThrows(DigitalSignatureException.class, () -> unifiedPlataform.getObtainCertificate());
+        unifiedPlataform.setCorrectDoubles();
+    }
+
+    @Override
+    @Test
+    public void testConnectException() throws ConnectException, ProceduralException {
+        unifiedPlataform.setExceptionDoublesVer1();
+        assertThrows(ConnectException.class, () -> unifiedPlataform.getObtainCertificate());
+        unifiedPlataform.setCorrectDoubles();
     }
 }

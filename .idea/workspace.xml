@@ -4,8 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dd0578-9692-46c8-b85a-d987b095c242" name="Changes" comment="Defined the classes, test interfaces and test classes">
+    <list default="true" id="198797a4-1953-4996-ba37-e2ae92c2cfab" name="Changes" comment="Added some additional and necessary attributes.">
+      <change afterPath="$PROJECT_DIR$/src/controller/exceptions/ProceduralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/CAS_Incorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/CertificationAuthority_FalseTrue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/CertificationAuthority_TrueFalse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/GPD_Incorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/JusticeMinistry_DigitalSignatureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubles/JusticeMinistry_Incorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformEnterCardDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformEnterFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformEnterNIFandPINobtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformEnterPINTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformObtainCertificateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformEnterCardDataTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformEnterFormTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformEnterNIFandPINobtTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformEnterPINTestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformObtainCertificateTestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UnifiedPlataform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UnifiedPlataform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Goal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubles/CAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doubles/CAS_AllCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubles/CertificationAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doubles/CertificationAuthority_AllCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubles/GPD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doubles/GPD_AllCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubles/JusticeMinistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doubles/JusticeMinistry_AllCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publicadministration/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministration/Citizen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publicadministration/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministration/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/UnifiedPlatformWithOneCorrectCitizenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/UnifiedPlatformWithOneCorrectCitizenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformTestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/interfaces/UnifiedPlatformTestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/publicadministration/PDFDocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/publicadministration/PDFDocumentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,46 +44,169 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="services_package" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2JKmV0qKIebr2z7BfNqqsOn3xce" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JdIgv25PfKQIKEDZScN6HgIUcP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller.exceptions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="doubles" />
+      <recent name="controller" />
+      <recent name="controller.interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Practice 3 EP">
+    <configuration name="All in Practice 3 EP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFDocumentTest.testMoveDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="publicadministration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="publicadministration" />
+      <option name="MAIN_CLASS_NAME" value="publicadministration.PDFDocumentTest" />
+      <option name="METHOD_NAME" value="testMoveDoc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnifiedPlatformObtainCertificateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.UnifiedPlatformObtainCertificateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnifiedPlatformObtainCertificateTest.testEnterCardData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.UnifiedPlatformObtainCertificateTest" />
+      <option name="METHOD_NAME" value="testEnterCardData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnifiedPlatformWithOneCorrectCitizenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice 3 EP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.UnifiedPlatformWithOneCorrectCitizenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Practice 3 EP" />
+        <item itemvalue="JUnit.UnifiedPlatformWithOneCorrectCitizenTest" />
+        <item itemvalue="JUnit.UnifiedPlatformWithOneCorrectCitizenTest" />
+        <item itemvalue="JUnit.PDFDocumentTest.testMoveDoc" />
+        <item itemvalue="JUnit.UnifiedPlatformObtainCertificateTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Solved some data dependencies problems after a merge. Implemented classes for every service interface. And started to implement tests for the UnifiedPlataform class.">
+      <created>1672338841972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672338841972</updated>
+    </task>
     <task active="true" id="Default" summary="Default task">
-      <created>1671835172871</created>
+      <changelist id="198797a4-1953-4996-ba37-e2ae92c2cfab" name="Changes" comment="Solved some data dependencies problems after a merge. Implemented classes for every service interface. And started to implement tests for the UnifiedPlataform class." />
+      <created>1672401652688</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671835172871</updated>
+      <updated>1672401652688</updated>
+      <workItem from="1672401653993" duration="9480000" />
+    </task>
+    <task id="LOCAL-00002" summary="Added some additional and necessary attributes.">
+      <created>1672403623189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672403623189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Added error control" />
-    <MESSAGE value="Implemented class and some error control" />
-    <MESSAGE value="Defined structure for testing the Nif.java class" />
-    <MESSAGE value="Implemented all tests for data package" />
-    <MESSAGE value="Defined the classes, test interfaces and test classes" />
-    <MESSAGE value="Implemented tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests" />
+    <MESSAGE value="Solved some data dependencies problems after a merge. Implemented classes for every service interface. And started to implement tests for the UnifiedPlataform class." />
+    <MESSAGE value="Added some additional and necessary attributes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some additional and necessary attributes." />
   </component>
 </project>

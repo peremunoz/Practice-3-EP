@@ -10,7 +10,7 @@ import data.SmallCode;
 import java.net.ConnectException;
 import java.util.Date;
 
-public class CertificationAuthority implements services.CertificationAuthority {
+public class CertificationAuthority_AllCorrect implements services.CertificationAuthority {
 
     @Override
     public boolean sendPIN(Nif nif, Date date) throws NifNotRegisteredException, IncorrectValDateException, AnyMobileRegisteredException, ConnectException {

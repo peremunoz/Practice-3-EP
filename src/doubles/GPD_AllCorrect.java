@@ -6,7 +6,7 @@ import publicadministration.Citizen;
 
 import java.net.ConnectException;
 
-public class GPD implements services.GPD{
+public class GPD_AllCorrect implements services.GPD{
     @Override
     public boolean verifyData(Citizen persData, Goal goal) throws IncorrectVerificationException, ConnectException {
         return true;

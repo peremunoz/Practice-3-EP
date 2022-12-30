@@ -12,7 +12,7 @@ public class CreditCard {
 
     private final Nif nif; // The nif of the user
 
-    private final String cardNumb; // The number of the credit card
+    private String cardNumb; // The number of the credit card
 
     private final Date expirDate; // The expiration date for the credit card
 
@@ -54,6 +54,10 @@ public class CreditCard {
 
     public boolean fullyRegistered() {
         return nif != null && cardNumb != null && expirDate != null && svc != null;
+    }
+
+    public void setCardNumber(String cardNumber) {
+        this.cardNumb = cardNumber;
     }
 
     @Override

@@ -11,7 +11,7 @@ public class Citizen {
     private final Nif nif;
     private final String name;
     private final String address;
-    private final String mobileNumb;
+    private String mobileNumb;
     private final Date validationDate;
 
     public Citizen (Nif nif, String name, String add, String mobile){
@@ -47,5 +47,9 @@ public class Citizen {
     }
     public String toString () {
         return "Name: " + name + " Address: " + address + " Mobile: " + mobileNumb;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumb = mobileNumber;
     }
 }

@@ -8,22 +8,17 @@ import java.math.BigDecimal;
 import java.net.ConnectException;
 import java.util.Date;
 
-public class CAS implements services.CAS {
-    BigDecimal balance;
+public class CAS_AllCorrect implements services.CAS {
 
-    public CAS() {
-        balance = new BigDecimal(0);
-    }
-
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
-    }
+    public CAS_AllCorrect() {}
 
     @Override
     public boolean askForApproval(String nTrans, CreditCard cardData, Date date, BigDecimal imp) throws NotValidPaymentDataException, InsufficientBalanceException, ConnectException {
-        if (cardData == null || date == null || imp == null) {
+        if (cardData == null || date == null || imp == null || nTrans == null) {
             throw new NotValidPaymentDataException("Los datos de pago no son válidos");
         }
+
+        BigDecimal balance = cardData.getBalance();
 
         if (balance.compareTo(imp) < 0) {
             throw new InsufficientBalanceException("El saldo es insuficiente");

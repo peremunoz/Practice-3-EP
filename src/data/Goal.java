@@ -11,6 +11,9 @@ final public class Goal {
     private final GoalTypes goalType;
 
     public Goal(GoalTypes goalType) {
+        if (goalType == null) {
+            throw new NullPointerException("Goal type cannot be null");
+        }
         this.goalType = goalType;
     }
 
